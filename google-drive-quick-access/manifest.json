@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Google Drive Quick Access",
+    "description": "A basic Google Drive Quick Access extension",
+    "version": "1.0",
+    "author": "jb14",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "jb14.googledrive@qa",
+            "strict_min_version": "128.0"
+        }
+    },
+    "icons": {
+        "32": "drive.svg"
+    },
+    "background": {
+        "scripts": [
+        "open.js"
+    ]
+  }
+}
